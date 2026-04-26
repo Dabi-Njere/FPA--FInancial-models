@@ -19,8 +19,9 @@ the Excel model, a data sources file, and a model-specific README
 explaining the assumptions, methodology, and key findings.
 
 ---
-
 ## Portfolio Structure
+
+```
 fpa-financial-models/
 │
 ├── SaaS/
@@ -34,8 +35,8 @@ fpa-financial-models/
 │   └── Aviation-Insurance/
 │
 └── Foundational-Models/
-└── Driver-Based-Budget-Forecast/
----
+    └── Driver-Based-Budget-Forecast/
+```
 
 ## Models In Progress
 
