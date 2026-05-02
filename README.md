@@ -105,10 +105,7 @@ equivalent cost reductions to reach breakeven.
 
 ## SurveyMonkey (Momentive) — Multi-Year SaaS Revenue Model
 
-Built using verified SEC 10-K filing data (2020-2022) with a 
-driver-based forecast through 2026. Models two distinct revenue 
-segments — self-serve and sales-assisted — with a full customer 
-waterfall, churn model, and dynamic P&L.
+Built a 6-tab multi-year revenue model using verified SEC 10-K data — modeling self-serve user decline and sales-assisted customer waterfall with 10% enterprise churn. Three-scenario analysis projects operating breakeven in 2026 at $745.9M revenue driven by 159% enterprise growth. Key finding: 36x ARPU gap between segments ($12,503 vs $344) validates management's strategic pivot away from self-serve.
 
 **Key Findings — Base Scenario:**
 
