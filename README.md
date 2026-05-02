@@ -19,14 +19,12 @@ the Excel model, a data sources file, and a model-specific README
 explaining the assumptions, methodology, and key findings.
 
 ---
-## Portfolio Structure
 
-```
+## Portfolio Structure
 fpa-financial-models/
 │
 ├── SaaS/
 │   ├── SurveyMonkey/
-│   ├── Oracle/
 │   ├── Wealthsimple/
 │   └── BlackRock/
 │
@@ -35,29 +33,27 @@ fpa-financial-models/
 │   └── Aviation-Insurance/
 │
 └── Foundational-Models/
-    └── Driver-Based-Budget-Forecast/
-```
+└── Driver-Based-Budget-Forecast/
 
-## Models In Progress
+---
+
+## Model Status
 
 ### 🟢 Complete
+
 | Model | Industry | Type | Complexity |
 |---|---|---|---|
 | Driver-Based Budget & Forecast | SaaS (Generic) | Annual Budget + 3 Scenarios | Foundation |
+| SurveyMonkey (Momentive) Multi-Year Model | SaaS | Multi-Year Revenue + P&L + Scenarios | Intermediate |
 
 ### 🟡 In Progress
-| Model | Industry | Type | Data Source |
-|---|---|---|---|
-| SurveyMonkey Revenue Model | SaaS | Multi-Year Forecast | Public Filings |
-| Chubb Financial Model | Insurance | P&L + Loss Ratio Analysis | Annual Report |
 
-### 🔵 Planned
 | Model | Industry | Type | Data Source |
 |---|---|---|---|
-| Oracle Multi-Year Model | SaaS / Enterprise | 3-Year Forecast | 10-K Filing |
-| Wealthsimple Growth Model | FinTech | Revenue + AUM Forecast | Public Data |
-| BlackRock AUM & Revenue Model | Asset Management | Multi-Year Planning | Annual Report |
-| Aviation Insurance Model | Specialty Insurance | Premium + Loss Modeling | Industry Data |
+| Chubb Financial Model | Insurance | P&L + Loss Ratio + Combined Ratio | Annual Report |
+| BlackRock AUM & Revenue Model | Asset Management | Multi-Year AUM + Fee Revenue | Annual Report |
+| Aviation Insurance Model | Specialty Insurance | Premium + Loss + Combined Ratio | Industry Data |
+| Wealthsimple Growth Model | FinTech | AUM Growth + Revenue Forecast | Public Data |
 
 ---
 
@@ -65,13 +61,14 @@ fpa-financial-models/
 
 | Skill | Models |
 |---|---|
-| Driver-based revenue forecasting | All SaaS models |
+| Driver-based revenue forecasting | All models |
+| Customer waterfall with churn modeling | SurveyMonkey, Chubb, Aviation |
 | Scenario analysis (Base/Upside/Downside) | All models |
-| Multi-year financial planning | Oracle, BlackRock, Wealthsimple |
+| Multi-year financial planning | SurveyMonkey, BlackRock, Wealthsimple |
 | Insurance-specific metrics (Loss Ratio, Combined Ratio) | Chubb, Aviation |
 | AUM and fee revenue modeling | BlackRock, Wealthsimple |
-| Real company data integration | All industry models |
-| Executive-ready presentation | All models |
+| Real company SEC filing data integration | All industry models |
+| Executive-ready insights and commentary | All models |
 
 ---
 
@@ -79,8 +76,8 @@ fpa-financial-models/
 
 - **Microsoft Excel** — Advanced modeling, VBA, Power Query
 - **Power BI** — KPI dashboards and variance reporting
-- **Data Sources** — SEC filings, annual reports, investor presentations,
-  industry benchmarks
+- **Data Sources** — SEC 10-K filings, annual reports, investor 
+  presentations, industry benchmarks
 - **Modeling Standards** — Color-coded inputs (yellow), 
   formulas (white), outputs (blue) — standard professional convention
 
@@ -102,39 +99,69 @@ using a generic SaaS business structure.
 | Breakeven Month | June | Not Achieved | Not Achieved |
 
 **Key Insight:** The business only achieves profitability under Upside 
-assumptions. In Base case the company requires $131,250 in additional 
-revenue or equivalent cost reductions to reach breakeven — 
-highlighting the importance of revenue growth as the primary lever.
+assumptions. Base case requires $131,250 in additional revenue or 
+equivalent cost reductions to reach breakeven.
+
+---
+
+## SurveyMonkey (Momentive) — Multi-Year SaaS Revenue Model
+
+Built using verified SEC 10-K filing data (2020-2022) with a 
+driver-based forecast through 2026. Models two distinct revenue 
+segments — self-serve and sales-assisted — with a full customer 
+waterfall, churn model, and dynamic P&L.
+
+**Key Findings — Base Scenario:**
+
+| Metric | 2022A | 2026F | Change |
+|---|---|---|---|
+| Total Revenue | $480.9M | $745.9M | +55% |
+| Self-Serve Revenue | $299.6M | $276.0M | -7.9% |
+| Sales-Assisted Revenue | $181.3M | $469.9M | +159% |
+| Gross Margin | 82.0% | 84.5% | +2.5pts |
+| Operating Margin | -16.9% | +1.5% | +18.4pts |
+| SA Ending Customers | 14,500 | 32,122 | +121% |
+
+**Three Scenario Summary (2026F):**
+
+| Metric | Downside | Base | Upside |
+|---|---|---|---|
+| Total Revenue | $583.5M | $745.9M | $932.6M |
+| Operating Income | -$175.0M | +$11.2M | +$79.3M |
+| Operating Margin | -30.0% | +1.5% | +8.5% |
+| Breakeven | Never | 2026 | 2025 |
+
+**Key Insight:** Enterprise customers generate 36x more revenue per 
+customer than self-serve users ($12,503 vs $344 ARPU) — validating 
+the strategic pivot. Base scenario projects operating breakeven in 
+2026 driven by 159% sales-assisted revenue growth.
 
 ---
 
 ## Industry Context
 
 ### SaaS
-SaaS financial models focus on subscription economics — 
-ARR, churn, ARPU, and net revenue retention. Models in this 
-section use real company filings to build driver-based forecasts 
-that reflect actual business performance and growth trajectories.
+SaaS financial models focus on subscription economics — ARR, churn, 
+ARPU, and net revenue retention. Models use real SEC filing data to 
+build driver-based forecasts reflecting actual business performance.
 
 ### Insurance
-Insurance models focus on underwriting profitability — 
-premium revenue, loss ratios, combined ratios, and reserve modeling. 
-Chubb and aviation models use actual industry data to reflect 
-real-world risk and profitability dynamics.
+Insurance models focus on underwriting profitability — net premiums 
+earned, loss ratios, combined ratios, and reserve modeling. Chubb 
+and aviation models use actual annual report data.
 
 ### Asset Management
-Asset management models focus on AUM growth, fee revenue, 
-and margin analysis — core metrics for firms like BlackRock 
-and Wealthsimple.
+Asset management models focus on AUM growth, fee revenue, and margin 
+analysis — core metrics for firms like BlackRock and Wealthsimple.
 
 ---
 
-## Work In Progress
+## Active Development
 
-This portfolio is actively being built. New models are added 
-regularly as part of ongoing FP&A professional development, 
-complementing the FP&A Professional (FPAP) certification 
-completed February 2026 and the FMVA currently in progress.
+This portfolio is actively being built as part of ongoing FP&A 
+professional development, complementing the FP&A Professional (FPAP) 
+certification completed February 2026 and CMA candidacy currently 
+in progress through the Institute of Management Accountants.
 
 ---
 
