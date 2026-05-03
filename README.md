@@ -1,42 +1,49 @@
 # 📊 FP&A Financial Modeling Portfolio
-## Dabi C. Njere | Financial Analyst | FP&A
-📧 Dabinjere@outlook.com | 
-🔗 [LinkedIn](https://linkedin.com/in/dabi-njere) | 
-📍 Ontario, Canada
+### Dabi C. Njere | Financial Analyst | FP&A
+📧 Dabinjere@outlook.com | 🔗 [LinkedIn](https://linkedin.com/in/dabi-njere) | 📍 Ontario, Canada
 
-> **Driver-based financial models built on real company data — 
-> each model starts with a business question and ends with a 
-> decision-ready insight.**
+> **Driver-based financial models built on real company data — each model starts with a business question and ends with a decision-ready insight.**
 
 ---
 
 ## About This Portfolio
 
-This repository contains independently built financial models 
-using verified SEC 10-K filings and public data. Each model 
-is built the way a real FP&A team would build it — identify 
-the business question, source the data, define the drivers, 
-build the model, and communicate the finding clearly.
+This repository contains independently built financial models using 
+verified SEC 10-K filings and public data. Each model is built the 
+way a real FP&A team would — identify the business question, source 
+the data, define the drivers, build the model, and communicate the 
+finding clearly.
 
-The goal is not to demonstrate Excel skills. The goal is to 
-demonstrate business thinking.
+---
 
+## Portfolio Structure
+fpa-financial-models/
+│
+├── SaaS/
+│   ├── SurveyMonkey/
+│   ├── Wealthsimple/
+│   └── BlackRock/
+│
+├── Insurance/
+│   ├── Chubb/
+│   └── Aviation-Insurance/
+│
+└── Foundational-Models/
+└── Driver-Based-Budget-Forecast/
 ---
 
 ## 🚀 Featured Model: SurveyMonkey (Momentive)
 ### Multi-Year SaaS Revenue Model
 
 **Business Question:**
-Can SurveyMonkey reach operating profitability under PE 
-ownership — and what has to be true for that to happen?
+Can SurveyMonkey reach operating profitability under PE ownership — and what has to be true for that to happen?
 
-**Data Source:** SEC Form 10-K filings 2020-2022 
-(Momentive Global Inc.)
+**Data Source:** SEC Form 10-K filings 2020–2022
 
 **Key Drivers Modeled:**
 - Self-serve user growth and decline
 - Sales-assisted customer waterfall with enterprise churn
-- ARPU growth by segment — self-serve vs enterprise
+- ARPU growth by segment
 - Operating cost efficiency ratios with year-over-year improvement
 
 **Key Findings — Base Scenario:**
@@ -48,6 +55,7 @@ ownership — and what has to be true for that to happen?
 | Sales-Assisted Revenue | $181.3M | $469.9M | +159% |
 | Gross Margin | 82.0% | 84.5% | +2.5pts |
 | Operating Margin | -16.9% | +1.5% | +18.4pts |
+| SA Ending Customers | 14,500 | 32,122 | +121% |
 
 **Three Scenario Summary (2026F):**
 
@@ -58,18 +66,11 @@ ownership — and what has to be true for that to happen?
 | Operating Margin | -30.0% | +1.5% | +8.5% |
 | Breakeven | Never | 2026 | 2025 |
 
-**The Answer to the Business Question:**
-The business reaches breakeven only under Base and Upside 
-scenarios. The single most critical variable is 
-sales-assisted revenue growth — which must reach 159% by 
-2026 for breakeven. Enterprise customers generate 36x more 
-revenue per customer than self-serve users ($12,503 vs $344 
-ARPU). A 5% improvement in enterprise churn rate is worth 
-approximately $60M in additional 2026 revenue.
+**Key Insight:** Enterprise customers generate 36x more revenue per customer than self-serve users ($12,503 vs $344 ARPU). The business reaches breakeven only in Base and Upside scenarios — the single most critical variable is sales-assisted revenue growth of 159% by 2026.
 
 ---
 
-## 📂 Full Portfolio
+## Model Status
 
 ### 🟢 Complete
 
@@ -89,39 +90,46 @@ approximately $60M in additional 2026 revenue.
 
 ---
 
-## 🛠 Skills Demonstrated
+## Skills Demonstrated
 
 | Skill | Application |
 |---|---|
-| Driver-based revenue forecasting | Customer × ARPU = Revenue, not flat growth rates |
+| Driver-based revenue forecasting | Customer × ARPU = Revenue — not flat growth rates |
 | Customer waterfall with churn | Beginning → New → Churned → Ending Customers |
 | Multi-year scenario analysis | Base / Upside / Downside with independent drivers |
 | Insurance underwriting metrics | Loss ratio, expense ratio, combined ratio |
 | AUM and fee revenue modeling | Gross flows, net flows, fee compression |
 | SEC filing data analysis | Verified actuals, derived metrics, transparent sourcing |
-| Executive insights and commentary | Written analyst findings, not just numbers |
+| Executive insights and commentary | Written analyst findings — not just numbers |
 
 ---
 
 ## Tools
 
-- Microsoft Excel — driver-based modeling, cross-tab 
-  references, scenario toggles, dynamic P&L
-- Power BI — KPI dashboards and variance reporting
-- Data: SEC EDGAR, annual reports, earnings releases, 
-  industry benchmarks
+- **Microsoft Excel** — driver-based modeling, scenario toggles, dynamic P&L
+- **Power BI** — KPI dashboards and variance reporting
+- **Data Sources** — SEC EDGAR, annual reports, earnings releases, industry benchmarks
 
 ---
 
 ## Certifications
 
-- FP&A Professional (FPAP) — Corporate Finance Institute, 
-  Feb 2026
-- CMA Candidate — Institute of Management Accountants, 
-  In Progress
+- FP&A Professional (FPAP) — Corporate Finance Institute, Feb 2026
+- CMA Candidate — Institute of Management Accountants, In Progress
 - CAPM — Project Management Institute, Jan 2025
 
 ---
 
-*All models built independently using publicly available data. 
-Not affiliated with any of the companies referenced.*
+## Foundational Model — Driver-Based Budget & Forecast
+
+| Metric | Upside (+15%) | Base Case | Downside (-15%) |
+|---|---|---|---|
+| Full Year Revenue | $1,160,063 | $1,008,750 | $857,438 |
+| Full Year Expenses | $1,140,000 | $1,140,000 | $1,140,000 |
+| Full Year Profit | $20,063 | -$131,250 | -$282,562 |
+| Profit Margin | 1.7% | -13.0% | -33.0% |
+| Breakeven Month | June | Not Achieved | Not Achieved |
+
+---
+
+*All models built independently using publicly available data. Not affiliated with any companies referenced.*
