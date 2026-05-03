@@ -15,7 +15,8 @@ the data, define the drivers, build the model, and communicate the
 finding clearly.
 
 ## Portfolio Structure
----
+
+```
 fpa-financial-models/
 │
 ├── SaaS/
@@ -28,8 +29,8 @@ fpa-financial-models/
 │   └── Aviation-Insurance/
 │
 └── Foundational-Models/
-  └── Driver-Based-Budget-Forecast/
----
+    └── Driver-Based-Budget-Forecast/
+```
 
 ## 🚀 Featured Model: SurveyMonkey (Momentive)
 ### Multi-Year SaaS Revenue Model
