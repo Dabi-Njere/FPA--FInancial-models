@@ -9,30 +9,49 @@
 ## About This Portfolio
 
 This repository contains independently built financial models using 
-verified SEC 10-K filings and public data. Each model is built the 
-way a real FP&A team would — identify the business question, source 
+verified public filings, annual reports, and industry data. Each model 
+follows a real FP&A workflow — identify the business question, source 
 the data, define the drivers, build the model, and communicate the 
 finding clearly.
 
 ## Portfolio Structure
 
 ```
-fpa-financial-models/
+FPA--FInancial-models/
+│
+├── OPG/
+│   └── OPG_Financial_Performance_Variance_Model.xlsx
 │
 ├── SaaS/
-│   ├── SurveyMonkey/
-│   ├── Wealthsimple/
-│   └── BlackRock/
-│
-├── Insurance/
-│   ├── Chubb/
-│   └── Aviation-Insurance/
+│   └── SurveyMonkey/
+│       └── SurveyMonkey_Momentive_MultiYear_Revenue_Model.xlsx
 │
 └── Foundational-Models/
-    └── Driver-Based-Budget-Forecast/
+    └── FPA-portfolio.xlsx
 ```
 
-## 🚀 Featured Model: SurveyMonkey (Momentive)
+## Model Status
+
+### 🟢 Complete
+
+| Model | Industry | Type | Complexity |
+|---|---|---|---|
+| Driver-Based Budget & Forecast | SaaS (Generic) | Annual Budget + 3 Scenarios | Foundation |
+| SurveyMonkey Multi-Year Model | SaaS | Multi-Year Revenue + P&L + Scenarios | Intermediate |
+| OPG Financial Performance & Variance Model | Utilities / Energy | Variance Analysis + Segment Performance + Management Commentary | Intermediate |
+
+### 🟡 In Progress
+
+| Model | Industry | Type | Data Source |
+|---|---|---|---|
+| Chubb Financial Model | Insurance | P&L + Loss Ratio + Combined Ratio | Annual Report |
+| BlackRock AUM & Revenue Model | Asset Management | Multi-Year AUM + Fee Revenue | Annual Report |
+| Aviation Insurance Model | Specialty Insurance | Premium + Loss + Combined Ratio | Industry Data |
+| Wealthsimple Growth Model | FinTech | AUM Growth + Revenue Forecast | Public Data |
+
+---
+
+## 🚀 Featured Model 1: SurveyMonkey (Momentive)
 ### Multi-Year SaaS Revenue Model
 
 **Business Question:**
@@ -66,27 +85,52 @@ Can SurveyMonkey reach operating profitability under PE ownership — and what h
 | Operating Margin | -30.0% | +1.5% | +8.5% |
 | Breakeven | Never | 2026 | 2025 |
 
-**Key Insight:** Enterprise customers generate 36x more revenue per customer than self-serve users ($12,503 vs $344 ARPU). The business reaches breakeven only in Base and Upside scenarios — the single most critical variable is sales-assisted revenue growth of 159% by 2026.
+**Key Insight:** Enterprise customers generate 36x more revenue per 
+customer than self-serve users ($12,503 vs $344 ARPU). Breakeven only 
+achieved in Base and Upside — sales-assisted growth of 159% by 2026 
+is the single most critical variable.
 
 ---
 
-## Model Status
+## 🚀 Featured Model 2: Ontario Power Generation (OPG)
+### Financial Performance & Variance Analysis Model
 
-### 🟢 Complete
+**Business Question:**
+How is OPG performing across its three generation segments — and what are the key drivers of variance vs budget?
 
-| Model | Industry | Type | Complexity |
-|---|---|---|---|
-| Driver-Based Budget & Forecast | SaaS (Generic) | Annual Budget + 3 Scenarios | Foundation |
-| SurveyMonkey Multi-Year Model | SaaS | Multi-Year Revenue + P&L + Scenarios | Intermediate |
+**Data Source:** OPG Annual Reports 2021–2023 | OPG Q4 2024 Press Release
 
-### 🟡 In Progress
+**Key Drivers Modeled:**
+- Revenue by segment — Nuclear, Hydro, Contracted
+- Actuals vs budget variance with driver explanation
+- Segment contribution analysis
+- 3-year CAGR and revenue mix trends
 
-| Model | Industry | Type | Data Source |
-|---|---|---|---|
-| Chubb Financial Model | Insurance | P&L + Loss Ratio + Combined Ratio | Annual Report |
-| BlackRock AUM & Revenue Model | Asset Management | Multi-Year AUM + Fee Revenue | Annual Report |
-| Aviation Insurance Model | Specialty Insurance | Premium + Loss + Combined Ratio | Industry Data |
-| Wealthsimple Growth Model | FinTech | AUM Growth + Revenue Forecast | Public Data |
+**Key Findings:**
+
+| Metric | 2021A | 2022A | 2023A | 2024 Budget |
+|---|---|---|---|---|
+| Total Revenue ($M) | $6,800 | $7,200 | $7,400 | $7,659 |
+| EBIT ($M) | $2,100 | $2,170 | $2,198 | $2,336 |
+| Net Income ($M) | $1,325 | $1,636 | $1,741 | $1,838 |
+| Nuclear % of Revenue | 57% | 58% | 61% | 62% |
+| Net Income Growth | — | +23.5% | +6.4% | +5.6% |
+
+**Segment Contribution to 2023 Revenue Growth:**
+
+| Segment | $ Contribution | % of Total Change |
+|---|---|---|
+| Regulated Nuclear | +$300M | +150% |
+| Regulated Hydro | $0M | 0% |
+| Contracted & Other | -$100M | -50% |
+| **Net Change** | **+$200M** | **100%** |
+
+**Key Insight:** Nuclear is OPG's sole growth engine — contributing 
+150% of 2023 revenue growth while Contracted dragged -50%. The 
+Darlington Refurbishment makes generation volume the single most 
+critical budget assumption — a planned 2024 outage reduced net income 
+by $753M vs 2023, demonstrating why variance explanation is a critical 
+recurring FP&A deliverable in regulated utilities.
 
 ---
 
@@ -96,19 +140,25 @@ Can SurveyMonkey reach operating profitability under PE ownership — and what h
 |---|---|
 | Driver-based revenue forecasting | Customer × ARPU = Revenue — not flat growth rates |
 | Customer waterfall with churn | Beginning → New → Churned → Ending Customers |
+| Variance analysis vs budget | $ and % variance with written driver explanation |
+| Segment contribution analysis | Which segment drove the change and by how much |
+| Regulated utility economics | OEB rate framework, generation volume drivers |
 | Multi-year scenario analysis | Base / Upside / Downside with independent drivers |
 | Insurance underwriting metrics | Loss ratio, expense ratio, combined ratio |
 | AUM and fee revenue modeling | Gross flows, net flows, fee compression |
-| SEC filing data analysis | Verified actuals, derived metrics, transparent sourcing |
+| SEC and public filing analysis | Verified actuals, derived metrics, transparent sourcing |
 | Executive insights and commentary | Written analyst findings — not just numbers |
 
 ---
 
 ## Tools
 
-- **Microsoft Excel** — driver-based modeling, scenario toggles, dynamic P&L
+- **Microsoft Excel** — driver-based modeling, scenario toggles, 
+  dynamic P&L, variance analysis
+- **SAP** — financial data extraction and validation (Deloitte Canada)
 - **Power BI** — KPI dashboards and variance reporting
-- **Data Sources** — SEC EDGAR, annual reports, earnings releases, industry benchmarks
+- **Data Sources** — SEC EDGAR, OPG Annual Reports, OEB decisions, 
+  earnings releases, industry benchmarks
 
 ---
 
@@ -132,4 +182,5 @@ Can SurveyMonkey reach operating profitability under PE ownership — and what h
 
 ---
 
-*All models built independently using publicly available data. Not affiliated with any companies referenced.*
+*All models built independently using publicly available data. 
+Not affiliated with any companies referenced.*
