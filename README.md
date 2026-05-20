@@ -41,6 +41,7 @@ FPA--FInancial-models/
 | Driver-Based Budget & Forecast | SaaS (Generic) | Annual Budget + 3 Scenarios | Foundation |
 | SurveyMonkey Multi-Year Model | SaaS | Multi-Year Revenue + P&L + Scenarios | Intermediate |
 | OPG Financial Performance & Variance Model | Utilities / Energy | Variance Analysis + Segment Performance + Management Commentary | Intermediate |
+| DoorDash SF Market Launch Model | Technology / Marketplace | Cohort Waterfall + Unit Economics + Scenario Analysis | Advanced |
 
 ### 🟡 In Progress
 
@@ -183,6 +184,9 @@ improving 12-month net contribution by approximately $1.15M.
 | AUM and fee revenue modeling | Gross flows, net flows, fee compression |
 | SEC and public filing analysis | Verified actuals, derived metrics, transparent sourcing |
 | Executive insights and commentary | Written analyst findings — not just numbers |
+| Cohort waterfall modeling | 12-cohort decay model with lifecycle + competitor churn |
+| Unit economics analysis | Per-order revenue, cost, and contribution margin |
+| Dynamic scenario toggle | Single cell drives entire P&L across three scenarios |
 
 ---
 
