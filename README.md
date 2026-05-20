@@ -134,6 +134,39 @@ recurring FP&A deliverable in regulated utilities.
 
 ---
 
+## 🚀 Featured Model 3: DoorDash San Francisco Launch
+### Finance & Strategy Case Study
+
+**Business Question:**
+Is the San Francisco market financially viable and what drives 
+long-term profitability across a 12-month launch horizon?
+
+**Data Source:** DoorDash San Francisco operational data 
+July 2023 – June 2024
+
+**Key Drivers Modeled:**
+- 12-cohort customer waterfall with lifecycle churn decay
+- Competitor shock impact (+5% churn) across all active cohorts
+- System outage revenue impact ($1 delivery fee in April 2025)
+- Dynamic scenario toggle — Worst / Base / Best case
+- Unit economics: delivery fees, commission, Dasher costs, CAC
+
+**Key Findings:**
+
+| Metric | Worst Case | Base Case | Best Case |
+|---|---|---|---|
+| Net Contribution 12M | -$2.31M | -$507K | +$645K |
+| Breakeven Month | Never | Dec 2024 | Nov 2024 |
+| Jun-25 Active Customers | 44,907 | 54,707 | 60,843 |
+| Total Orders 12M | 562,761 | 816,009 | 1,065,027 |
+
+**Key Insight:** The market reaches breakeven in December 2024 
+under base assumptions — five months after launch. The April 
+2025 combination of a system outage and competitor-driven churn 
+erases five months of accumulated profitability. DashPass 
+conversion in months 1-2 is the single highest-impact retention 
+investment — reducing early churn from 30% toward 22% and 
+improving 12-month net contribution by approximately $1.15M.
 ## Skills Demonstrated
 
 | Skill | Application |
