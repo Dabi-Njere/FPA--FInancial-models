@@ -27,6 +27,7 @@ Every model is built to answer the questions a CFO or hiring manager would actua
 | OPG Financial Performance & Variance | Utilities / Energy | Variance Analysis + Segment Performance | Intermediate |
 | DoorDash SF Market Launch | Technology / Marketplace | Cohort Waterfall + Unit Economics | Advanced |
 | Deloitte Engagement P&L | Professional Services | 4 Service Lines + 6-Year P&L + Scenarios | Advanced |
+| Combined Insurance (Chubb) | Insurance | Underwriting P&L + 3 Product Lines + Scenarios | Advanced |
 
 ---
 
@@ -164,7 +165,44 @@ Every model is built to answer the questions a CFO or hiring manager would actua
 
 ---
 
-## 🎯 Featured Model 5: Driver-Based Budget & Forecast
+## 🚀 Featured Model 5: Combined Insurance (Chubb)
+### Underwriting P&L Model — Insurance FP&A
+
+**Business Question:** Is Combined Insurance's supplemental insurance business profitable — and what drives underwriting performance across Accident & Health, Life, and Disability product lines over a 6-year period with 2-year forecast?
+
+**Data Source:** Representative insurance data using verified industry benchmarks for loss ratios, expense ratios, and combined ratios for supplemental insurance products.
+
+**Key Drivers Modeled:**
+- Policies in Force × Average Premium = Gross Written Premium
+- Reinsurance ceded at 3% of GWP — Net Earned Premium
+- Loss Ratio = Claims Paid ÷ Net Earned Premium
+- Expense Ratio = Operating Expenses ÷ Net Earned Premium
+- Combined Ratio = Loss Ratio + Expense Ratio
+- Bear/Base/Bull scenario toggle across all three product lines
+
+**Key Findings:**
+
+| Metric | 2019 | 2024 | Change |
+|---|---|---|---|
+| Total GWP | $185.8M | $221.5M | +19.3% |
+| Total Policies in Force | 425,000 | 484,000 | +13.9% |
+| Underwriting Income | $14.5M | $31.8M | +119% |
+| Blended Combined Ratio | 91.9% | 85.2% | -670bps |
+| Underwriting Margin % | 8% | 15% | +700bps |
+
+**Scenario Summary (2025 Forecast):**
+
+| Scenario | Total GWP | Underwriting Income | Combined Ratio |
+|---|---|---|---|
+| Bear | $228.4M | $18.2M | 90.5% |
+| Base | $236.0M | $37.8M | 83.5% |
+| Bull | $242.1M | $48.6M | 80.5% |
+
+**Key Insight:** Underwriting income more than doubled from $14.5M to $31.8M as premium grew 19.3% while claims grew only 9.5% — disciplined underwriting creating significant operating leverage. Disability is the highest-risk product line — the only one to record negative underwriting income (-$2.1M) in 2020 during COVID. Combined ratio improved 670bps from 91.9% to 85.2% over six years driven by better claims management and operational efficiency.
+
+---
+
+## 🎯 Featured Model 6: Driver-Based Budget & Forecast
 ### Foundational FP&A Model
 
 **Business Question:** What revenue, expense, and profitability outcomes can a SaaS business expect under different growth scenarios?
@@ -196,16 +234,17 @@ Every model is built to answer the questions a CFO or hiring manager would actua
 | Variance analysis vs budget | $ and % variance with written driver explanation |
 | Segment contribution analysis | Which segment drove the change and by how much |
 | Professional services FP&A | Utilization, realization, engagement margin modeling |
+| Insurance underwriting metrics | Loss ratio, expense ratio, combined ratio, GWP |
 | Scenario toggle modeling | Single cell drives Bear/Base/Bull across entire P&L |
 | Regulated utility economics | OEB rate framework, generation volume drivers |
 | Multi-year scenario analysis | Base / Upside / Downside with independent drivers |
-| Insurance underwriting metrics | Loss ratio, expense ratio, combined ratio |
 | Executive dashboard design | CFO-ready KPI cards, charts, management commentary |
 | Cohort waterfall modeling | 12-cohort decay model with lifecycle + competitor churn |
 | Unit economics analysis | Per-order revenue, cost, and contribution margin |
 | Dynamic scenario toggle | Single cell drives entire P&L across three scenarios |
 | SEC and public filing analysis | Verified actuals, derived metrics, transparent sourcing |
 | Executive insights and commentary | Written analyst findings — not just numbers |
+| AI-integrated FP&A workflows | Claude and Copilot accelerating analysis and reporting |
 
 ---
 
