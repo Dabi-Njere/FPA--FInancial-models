@@ -28,6 +28,7 @@ Every model is built to answer the questions a CFO or hiring manager would actua
 | DoorDash SF Market Launch | Technology / Marketplace | Cohort Waterfall + Unit Economics | Advanced |
 | Deloitte Engagement P&L | Professional Services | 4 Service Lines + 6-Year P&L + Scenarios | Advanced |
 | Combined Insurance (Chubb) | Insurance | Underwriting P&L + 3 Product Lines + Scenarios | Advanced |
+| TJX Canada Store Expansion | Retail | Store Economics + Revenue Waterfall + Scenarios | Advanced |
 
 ---
 
@@ -89,15 +90,6 @@ Every model is built to answer the questions a CFO or hiring manager would actua
 | Net Income ($M) | $1,325 | $1,636 | $1,741 | $1,838 |
 | Nuclear % of Revenue | 57% | 58% | 61% | 62% |
 
-**Segment Contribution to 2023 Revenue Growth:**
-
-| Segment | $ Contribution | % of Total Change |
-|---|---|---|
-| Regulated Nuclear | +$300M | +150% |
-| Regulated Hydro | $0M | 0% |
-| Contracted & Other | -$100M | -50% |
-| **Net Change** | **+$200M** | **100%** |
-
 **Key Insight:** Nuclear is OPG's sole growth engine — contributing 150% of 2023 revenue growth while Contracted dragged -50%. The Darlington Refurbishment makes generation volume the single most critical budget assumption.
 
 ---
@@ -134,7 +126,7 @@ Every model is built to answer the questions a CFO or hiring manager would actua
 
 **Business Question:** What drives engagement profitability across Deloitte's four service lines — and what is the 2-year financial outlook under Bear, Base, and Bull scenarios?
 
-**Data Source:** Representative professional services data using verified Big 4 industry benchmarks for billing rates, utilization, and cost structures.
+**Data Source:** Representative professional services data using verified Big 4 industry benchmarks.
 
 **Key Drivers Modeled:**
 - Utilization rate by service line (Billable Hours ÷ Available Hours)
@@ -161,20 +153,20 @@ Every model is built to answer the questions a CFO or hiring manager would actua
 | Base | $59.1M | $6.0M | 10.1% |
 | Bull | $60.7M | $7.2M | 11.8% |
 
-**Key Insight:** Margin expansion of 250bps driven entirely by 6-point utilization improvement from 77% to 83%. COVID caused the only revenue contraction in 2020 (-6.7%) — fully recovered by 2021 (+17.3%). Primary forecast risk: cost per hour growing above 2% compresses margins back toward 8-9%.
+**Key Insight:** Margin expansion of 250bps driven entirely by 6-point utilization improvement from 77% to 83%. COVID caused the only revenue contraction in 2020 (-6.7%) — fully recovered by 2021 (+17.3%).
 
 ---
 
 ## 🚀 Featured Model 5: Combined Insurance (Chubb)
 ### Underwriting P&L Model — Insurance FP&A
 
-**Business Question:** Is Combined Insurance's supplemental insurance business profitable — and what drives underwriting performance across Accident & Health, Life, and Disability product lines over a 6-year period with 2-year forecast?
+**Business Question:** Is Combined Insurance's supplemental insurance business profitable — and what drives underwriting performance across Accident & Health, Life, and Disability product lines?
 
-**Data Source:** Representative insurance data using verified industry benchmarks for loss ratios, expense ratios, and combined ratios for supplemental insurance products.
+**Data Source:** Representative insurance data using verified industry benchmarks for loss ratios, expense ratios, and combined ratios.
 
 **Key Drivers Modeled:**
 - Policies in Force × Average Premium = Gross Written Premium
-- Reinsurance ceded at 3% of GWP — Net Earned Premium
+- Reinsurance ceded at 3% of GWP
 - Loss Ratio = Claims Paid ÷ Net Earned Premium
 - Expense Ratio = Operating Expenses ÷ Net Earned Premium
 - Combined Ratio = Loss Ratio + Expense Ratio
@@ -198,20 +190,58 @@ Every model is built to answer the questions a CFO or hiring manager would actua
 | Base | $236.0M | $37.8M | 83.5% |
 | Bull | $242.1M | $48.6M | 80.5% |
 
-**Key Insight:** Underwriting income more than doubled from $14.5M to $31.8M as premium grew 19.3% while claims grew only 9.5% — disciplined underwriting creating significant operating leverage. Disability is the highest-risk product line — the only one to record negative underwriting income (-$2.1M) in 2020 during COVID. Combined ratio improved 670bps from 91.9% to 85.2% over six years driven by better claims management and operational efficiency.
+**Key Insight:** Underwriting income more than doubled as premium grew 19.3% while claims grew only 9.5% — disciplined underwriting creating significant operating leverage. Disability is the highest-risk product line — the only one to record negative underwriting income in 2020 during COVID.
 
 ---
 
-## 🎯 Featured Model 6: Driver-Based Budget & Forecast
+## 🚀 Featured Model 6: TJX Canada Store Expansion
+### Retail FP&A — Store Economics & Revenue Waterfall
+
+**Business Question:** Should TJX Canada accelerate store expansion — and what is the 3-year financial impact on revenue, gross margin, and operating income across Winners, HomeSense, and Marshalls?
+
+**Data Source:** TJX Companies 10-K Annual Reports FY2021-FY2025 | TJX Earnings Releases | Industry benchmarks for store economics
+
+**Key Drivers Modeled:**
+- Bottom-up revenue waterfall — mature stores × revenue per store × SSSG
+- New store cohort ramp curve (60% / 80% / 95% / 100% over 4 years)
+- Merchandise margin waterfall — buying cost, shrink, freight, buying & occupancy
+- Full P&L from Net Sales to Operating Income
+- Bear/Base/Bull scenario toggle across all drivers
+- Store closure modeling — net new store count
+
+**Key Findings — FY2025A Actuals:**
+
+| Metric | FY2021 | FY2025 | Change |
+|---|---|---|---|
+| Total Stores | 436 | 479 | +43 |
+| Net Sales | $3,510M | $4,960M | +41% |
+| Revenue per Store | $8.05M | $10.35M | +29% |
+| Gross Margin % | 28.9% | 31.0% | +210bps |
+| Operating Margin % | 15.5% | 13.5% | -200bps |
+| Sales per Sq Ft | $375 | $420 | +12% |
+
+**Scenario Summary (FY2028 Forecast):**
+
+| Metric | Bear | Base | Bull |
+|---|---|---|---|
+| New Stores per Year | 7 | 12 | 16 |
+| Total Net Sales FY2028 | $5,770M | $5,919M | $6,057M |
+| Revenue CAGR (3yr) | 6.1% | 7.0% | 7.8% |
+| Gross Margin % | 28.3% | 31.0% | 33.2% |
+| Operating Margin % | 11.1% | 13.5% | 15.3% |
+| Operating Income Growth | -1.8% | +22.5% | +42.0% |
+| New Store Revenue (3yr) | $323M | $595M | $848M |
+| Total Capital Invested | $109M | $151M | $182M |
+| Return on New Store Investment | 40% | 53% | 77% |
+
+**Key Insight:** Store expansion is financially justified across ALL three scenarios — even Bear case generates 40% return on new store capital investment. The primary margin risk is wage inflation compressing payroll from 10.8% to 11.5% of sales — which alone reduces operating margin by 70bps. Every 50bps improvement in merchandise margin generates approximately $30M in additional gross profit at FY2028 scale. Recommendation: proceed with Base case expansion of 12 stores per year — SSSG of 3% combined with new store contribution grows operating income from $652M to $799M by FY2028, a 22.5% improvement.
+
+---
+
+## 🎯 Featured Model 7: Driver-Based Budget & Forecast
 ### Foundational FP&A Model
 
 **Business Question:** What revenue, expense, and profitability outcomes can a SaaS business expect under different growth scenarios?
-
-**Key Drivers Modeled:**
-- Revenue driver assumptions with monthly granularity
-- Fixed and variable expense modeling
-- Three-scenario toggle — Upside / Base / Downside
-- Breakeven analysis
 
 **Key Findings:**
 
@@ -229,19 +259,19 @@ Every model is built to answer the questions a CFO or hiring manager would actua
 
 | Skill | Application |
 |---|---|
-| Driver-based revenue forecasting | Customer × ARPU = Revenue — not flat growth rates |
-| Customer waterfall with churn | Beginning → New → Churned → Ending Customers |
+| Driver-based revenue forecasting | Bottom-up store × revenue per store × SSSG — not flat growth rates |
+| Customer and store waterfall modeling | Cohort-based ramp curves with maturity tracking |
 | Variance analysis vs budget | $ and % variance with written driver explanation |
 | Segment contribution analysis | Which segment drove the change and by how much |
 | Professional services FP&A | Utilization, realization, engagement margin modeling |
 | Insurance underwriting metrics | Loss ratio, expense ratio, combined ratio, GWP |
-| Scenario toggle modeling | Single cell drives Bear/Base/Bull across entire P&L |
-| Regulated utility economics | OEB rate framework, generation volume drivers |
+| Retail store economics | Merchandise margin, shrink, SSSG, sales per sq ft, payback period |
+| Scenario toggle modeling | Single cell drives Bear/Base/Bull across entire model |
+| Regulated utility economics | Generation volume drivers, segment variance analysis |
 | Multi-year scenario analysis | Base / Upside / Downside with independent drivers |
 | Executive dashboard design | CFO-ready KPI cards, charts, management commentary |
-| Cohort waterfall modeling | 12-cohort decay model with lifecycle + competitor churn |
-| Unit economics analysis | Per-order revenue, cost, and contribution margin |
-| Dynamic scenario toggle | Single cell drives entire P&L across three scenarios |
+| Cohort waterfall modeling | 12-cohort decay model with lifecycle and competitor churn |
+| Unit economics analysis | Per-order and per-store revenue, cost, contribution margin |
 | SEC and public filing analysis | Verified actuals, derived metrics, transparent sourcing |
 | Executive insights and commentary | Written analyst findings — not just numbers |
 | AI-integrated FP&A workflows | Claude and Copilot accelerating analysis and reporting |
@@ -252,12 +282,12 @@ Every model is built to answer the questions a CFO or hiring manager would actua
 
 | Tool | Usage |
 |---|---|
-| Microsoft Excel | Driver-based modeling, scenario toggles, dynamic P&L, variance analysis, executive dashboards |
+| Microsoft Excel | Driver-based modeling, scenario toggles, dynamic P&L, variance analysis |
 | SAP | Financial data extraction and validation |
 | Power BI | KPI dashboards and variance reporting |
 | SQL | Data querying and financial analysis |
 | AI Tools — Claude & Copilot | AI-integrated FP&A workflows |
-| Data Sources | SEC EDGAR, OPG Annual Reports, OEB decisions, earnings releases, industry benchmarks |
+| Data Sources | SEC EDGAR, TJX 10-K, OPG Annual Reports, earnings releases, industry benchmarks |
 
 ---
 
