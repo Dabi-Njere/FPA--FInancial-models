@@ -2,9 +2,7 @@
 **Dabi C. Njere | Senior Financial Analyst | FP&A**
 📧 Dabinjere@outlook.com | 🔗 [LinkedIn](https://linkedin.com/in/dabi-njere) | 📍 Ontario, Canada
 
----
-
-> Driver-based financial models built on real company data — each model starts with a business question and ends with a decision-ready insight.
+Driver-based financial models built on real company data — each model starts with a business question and ends with a decision-ready insight.
 
 ---
 
@@ -29,6 +27,7 @@ Every model is built to answer the questions a CFO or hiring manager would actua
 | Deloitte Engagement P&L | Professional Services | 4 Service Lines + 6-Year P&L + Scenarios | Advanced |
 | Combined Insurance (Chubb) | Insurance | Underwriting P&L + 3 Product Lines + Scenarios | Advanced |
 | TJX Canada Store Expansion | Retail | Store Economics + Revenue Waterfall + Scenarios | Advanced |
+| Dumas Mining Corporate FP&A | Mining / Infrastructure | Project P&L + Backlog + EBITDA + Scenarios | Advanced |
 
 ---
 
@@ -229,16 +228,13 @@ Every model is built to answer the questions a CFO or hiring manager would actua
 | Revenue CAGR (3yr) | 6.1% | 7.0% | 7.8% |
 | Gross Margin % | 28.3% | 31.0% | 33.2% |
 | Operating Margin % | 11.1% | 13.5% | 15.3% |
-| Operating Income Growth | -1.8% | +22.5% | +42.0% |
-| New Store Revenue (3yr) | $323M | $595M | $848M |
-| Total Capital Invested | $109M | $151M | $182M |
 | Return on New Store Investment | 40% | 53% | 77% |
 
-**Key Insight:** Store expansion is financially justified across ALL three scenarios — even Bear case generates 40% return on new store capital investment. The primary margin risk is wage inflation compressing payroll from 10.8% to 11.5% of sales — which alone reduces operating margin by 70bps. Every 50bps improvement in merchandise margin generates approximately $30M in additional gross profit at FY2028 scale. Recommendation: proceed with Base case expansion of 12 stores per year — SSSG of 3% combined with new store contribution grows operating income from $652M to $799M by FY2028, a 22.5% improvement.
+**Key Insight:** Store expansion is financially justified across ALL three scenarios — even Bear case generates 40% return on new store capital investment. The primary margin risk is wage inflation compressing payroll from 10.8% to 11.5% of sales — which alone reduces operating margin by 70bps.
 
 ---
 
-## 🎯 Featured Model 7: Driver-Based Budget & Forecast
+## 🚀 Featured Model 7: Driver-Based Budget & Forecast
 ### Foundational FP&A Model
 
 **Business Question:** What revenue, expense, and profitability outcomes can a SaaS business expect under different growth scenarios?
@@ -255,17 +251,72 @@ Every model is built to answer the questions a CFO or hiring manager would actua
 
 ---
 
+## 🚀 Featured Model 8: Dumas Mining (STRACON Group)
+### Corporate FP&A Model — Underground Mining Contractor
+
+**Business Question:** What drives Dumas Mining's project-level EBITDA — and what is the 3-year financial outlook as the $2.2B STRACON backlog converts to revenue?
+
+**Data Source:** STRACON Group TSX Earnings Releases FY2023–FY2025 | Industry benchmarks for underground mining contractors | Dumas project portfolio research
+
+**Key Drivers Modeled:**
+- Revenue waterfall by contract — existing contracts + new contract cohorts by quarter of award
+- Historical revenue profiles by project type — Shaft Sinking (60/40), Underground Development (30/40/30), Production Mining (20% steady state)
+- Backlog movement — Opening + New Contracts Signed - Backlog Burned = Closing Backlog
+- Book-to-Bill ratio — new contracts signed vs revenue recognized
+- Equipment utilization rate — primary EBITDA margin driver
+- Cost per meter — operational efficiency metric declining $281 → $262
+- Bear/Base/Bull scenario toggle across all drivers
+- Four revenue streams — Underground Development (60%), Production Mining (25%), Shaft Sinking (10%), Engineering & Other (5%)
+
+**Key Findings — FY2023A to FY2025A Actuals:**
+
+| Metric | FY2023A | FY2025A | Change |
+|---|---|---|---|
+| Contract Revenue | $365M | $469.8M | +28.8% |
+| EBITDA | $43.8M | $66.2M | +51.1% |
+| EBITDA Margin % | 12.0% | 14.1% | +210bps |
+| Net Income | $18.5M | $29.7M | +60.5% |
+| Closing Backlog | $680M | $1,090M | +60.3% |
+| Book-to-Bill | 0.66x | 1.08x | First above 1.0x |
+| Equipment Utilization | 81% | 87% | +600bps |
+| Cost per Meter | $281 | $262 | -$19 |
+
+**Three-Year Forecast Summary (Base Scenario):**
+
+| Metric | FY2026F | FY2027F | FY2028F |
+|---|---|---|---|
+| Total Revenue | $245.4M | $413.0M | $470.4M |
+| EBITDA | $34.6M | $58.2M | $66.3M |
+| Net Income | $15.5M | $26.1M | $29.7M |
+| Closing Backlog | $1.26B | $1.27B | $1.37B |
+| Book-to-Bill | 1.69x | 1.28x | 1.22x |
+
+**Scenario Summary (FY2028F):**
+
+| Scenario | Revenue Growth | EBITDA Margin | Cost/Meter | Utilization |
+|---|---|---|---|---|
+| Bear | 8% | 11.5% | $275 | 82% |
+| Base | 14% | 14.1% | $262 | 87% |
+| Bull | 20% | 16.5% | $245 | 92% |
+
+**Key Insight:** FY2026 shows a revenue dip to $245M as two 2-year contracts — Stock West (McEwen Mining $142M) and Ontario Contract #4 ($78M) — complete simultaneously. This is not business deterioration — it is a structural contract cohort gap. Closing backlog grows to a record $1.26B in FY2026 with Book-to-Bill of 1.69x proving new contract wins far exceed completions. Revenue fully recovers to $470M by FY2028 matching FY2025 peak. The primary margin driver is equipment utilization — every 1% improvement generates approximately $4.7M in additional EBITDA at FY2025 revenue levels.
+
+---
+
 ## 🛠 Skills Demonstrated
 
 | Skill | Application |
 |---|---|
 | Driver-based revenue forecasting | Bottom-up store × revenue per store × SSSG — not flat growth rates |
 | Customer and store waterfall modeling | Cohort-based ramp curves with maturity tracking |
+| Contract revenue waterfall | Project-type revenue profiles — Shaft Sinking 60/40, Underground Dev 30/40/30 |
 | Variance analysis vs budget | $ and % variance with written driver explanation |
 | Segment contribution analysis | Which segment drove the change and by how much |
 | Professional services FP&A | Utilization, realization, engagement margin modeling |
 | Insurance underwriting metrics | Loss ratio, expense ratio, combined ratio, GWP |
 | Retail store economics | Merchandise margin, shrink, SSSG, sales per sq ft, payback period |
+| Mining project FP&A | Cost per meter, equipment utilization, backlog conversion, Book-to-Bill |
+| Backlog analysis | Opening + New - Burned = Closing · Coverage ratio · Book-to-Bill |
 | Scenario toggle modeling | Single cell drives Bear/Base/Bull across entire model |
 | Regulated utility economics | Generation volume drivers, segment variance analysis |
 | Multi-year scenario analysis | Base / Upside / Downside with independent drivers |
@@ -287,7 +338,7 @@ Every model is built to answer the questions a CFO or hiring manager would actua
 | Power BI | KPI dashboards and variance reporting |
 | SQL | Data querying and financial analysis |
 | AI Tools — Claude & Copilot | AI-integrated FP&A workflows |
-| Data Sources | SEC EDGAR, TJX 10-K, OPG Annual Reports, earnings releases, industry benchmarks |
+| Data Sources | SEC EDGAR, TJX 10-K, OPG Annual Reports, STRACON TSX Earnings, industry benchmarks |
 
 ---
 
@@ -307,8 +358,3 @@ Every model is built to answer the questions a CFO or hiring manager would actua
 | Phone | 416-271-2651 |
 | LinkedIn | linkedin.com/in/dabi-njere |
 | Location | Ontario, Canada |
-
----
-
-*Built independently to demonstrate applied FP&A capability across multiple industries.*
-*Every model starts with a real business question. Every insight is defensible.*
